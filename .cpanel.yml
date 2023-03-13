@@ -1,0 +1,15 @@
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/bips0889/portfolio.paul-dem/
+    - /bin/cp -R public $DEPLOYPATH
+    - /bin/cp -R src $DEPLOYPATH
+    - /bin/cp babel.config.js $DEPLOYPATH
+    - /bin/cp package-lock.json $DEPLOYPATH
+    - /bin/cp package.json $DEPLOYPATH
+    - /bin/cp postcss.config.js $DEPLOYPATH
+    - /bin/cp tailwind.config.js $DEPLOYPATH
+   
+    
+    
+    
+    
