@@ -1,6 +1,6 @@
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/bips0889/portfolio.paul-dem/
+    - export DEPLOYPATH=/home/bips0889/portfolio/
     - /bin/cp -R public $DEPLOYPATH
     - /bin/cp -R src $DEPLOYPATH
     - /bin/cp babel.config.js $DEPLOYPATH
